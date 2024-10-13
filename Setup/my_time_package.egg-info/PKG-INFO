@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: my-time-package
+Version: 0.0.1
+Summary: A package to display local and China time in ROS 2 nodes
+Home-page: UNKNOWN
+Maintainer: Your Name
+Maintainer-email: your_email@example.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

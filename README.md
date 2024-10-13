@@ -1,56 +1,18 @@
 # `gog_g0i_autonom` package
-ROS 2 C++ package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
+ROS 2 PYTHON package.  [![Static Badge](https://img.shields.io/badge/ROS_2-Humble-34aec5)](https://docs.ros.org/en/humble/)
 ## Packages and build
 
 It is assumed that the workspace is `~/ros2_ws/`.
 
-### Clone the packages
-``` r
-cd ~/ros2_ws/src
-```
-``` r
-git clone https://github.com/g0gi-cw/gog_g0i_autonom
-```
+My program is displaying the time from our local timezone, and after that it is going to display the chineese
+time. I built the project with VisualStudio 2022. Used WSL, and used Ubuntu 22.04.5 LTS to try to build the program.
 
 ### Build ROS 2 packages
-``` r
-cd ~/ros2_ws
-```
-``` r
-colcon build --packages-select gog_g0i_autonom --symlink-install
-```
+1.Open the terminal
+2.Type: "CD {location of the project}" example "cd C:\Users\PC\source\repos\G0Gi-cw\gog_g0i_autonom"
+2.If you are using WSL then put /mnt before the location example "cd /mnt/c/Users/PC/source/repos/G0Gi-cw/gog_g0i_autonom"
+3.Type "colcon build" into the terminal
+4.Type "source install/setup.bash"
+5.Type "ros2 launch gog_g0i_autonom time_launch.py"
+6. Finally it is going to show the time in your local timezone and in China!!!
 
-<details>
-<summary> Don't forget to source before ROS commands.</summary>
-
-``` bash
-source ~/ros2_ws/install/setup.bash
-```
-</details>
-
-``` r
-ros2 launch gog_g0i_autonom launch_example1.launch.py
-```
-
-# Delete this part if you are using it as a template
-
-ROS 2 pacage template, to get started, use template by clicking on the Green button labeled [`Use this template`](https://github.com/g0gi-cw/gog_g0i_autonom/generate) / [`Create new repository`](https://github.com/g0gi-cw/gog_g0i_autonom/generate). 
-
-<p align="center"><img src="img/use_this_template01.png" width="60%" /></p>
-
-
-Let's assume 
-- your Github username is `mycoolusername`
-- your ROS 2 repo shold be `cool_ros2_package`
-
-Replace everything in the cloned repo:
-
-- `gog_g0i_autonom` >> `cool_ros2_package` (the folder was already renamed after `Use this template`)
-- `g0gi-cw` >> `mycoolusername`
-- find all `todo` strings and fill the blanks
-
-The easiest way is VS code:
-
-<p align="center"><img src="img/replace01.png" width="60%" /></p>
-
-Now `colcon build` your ROS 2 package and you can start wokring.
