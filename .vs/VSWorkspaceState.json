@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\launch"
   ],
+  "SelectedNode": "\\launch\\local_time.py",
   "PreviewInSolutionExplorer": false
 }

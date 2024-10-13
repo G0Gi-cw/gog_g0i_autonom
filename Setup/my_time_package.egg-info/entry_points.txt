@@ -1,0 +1,4 @@
+[console_scripts]
+china_time_node = my_time_package.china_time_node:main
+local_time_node = my_time_package.local_time_node:main
+

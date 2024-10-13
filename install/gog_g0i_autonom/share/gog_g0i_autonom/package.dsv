@@ -1,0 +1,8 @@
+source;share/gog_g0i_autonom/hook/cmake_prefix_path.ps1
+source;share/gog_g0i_autonom/hook/cmake_prefix_path.dsv
+source;share/gog_g0i_autonom/hook/cmake_prefix_path.sh
+source;share/gog_g0i_autonom/local_setup.bash
+source;share/gog_g0i_autonom/local_setup.dsv
+source;share/gog_g0i_autonom/local_setup.ps1
+source;share/gog_g0i_autonom/local_setup.sh
+source;share/gog_g0i_autonom/local_setup.zsh
